@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="Windows-31J">
+<title>タスク追加画面</title>
+</head>
+<body>
+    <form action="TaskListServlet" method="post">
+        <table>
+            <tr>
+                <td align="right">タスク名：</td>
+                <td><input type="text" name="taskName" size="50"></td>
+            </tr>
+            <tr>
+                <td align="right">開始日時：</td>
+                <td><input type="text" name="startDate" size="30"></td>
+            </tr>
+            <tr>
+                <td align="right">終了日時：</td>
+                <td><input type="text" name="endDate" size="30"></td>
+            </tr>
+            <tr>
+                <td align="right">内容：</td>
+                <td><textarea rows="5" cols="50" name="content"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right"><input type="submit" value="登録">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
